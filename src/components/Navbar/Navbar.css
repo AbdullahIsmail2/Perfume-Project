@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
+
+body {
+	overflow: hidden;
+}
+.nav {
+	border: 1px solid black;
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 1rem 2rem;
+	background: var(--color-black);
+	color: white;
+}
+
+.nav-logo {
+	font-size: 24px;
+  font-family: var(--font-base);
+	letter-spacing: 4px;
+}
+
+.nav__hamburger,
+.nav__second-menu-icon {
+	cursor: pointer;
+}
+
+.nav__list {
+	list-style: none;
+	display: none;
+}
+
+.nav__list-item {
+	margin: 0 1rem;
+	cursor: pointer;
+}
+
+.nav__list-item:hover {
+	color: var(--color-grey);
+}
+
+.nav-actions {
+	display: none;
+}
+
+.nav-actions a {
+	margin: 0 1rem;
+	text-decoration: none;
+	transition: 0.5s ease;
+}
+.nav-actions a:hover {
+	border-bottom: 1px solid var(--color-golden);
+}
+
+.nav-actions-seperator {
+	background-color: var(--color-grey);
+	width: 1px;
+	height: 30px;
+}
+
+.nav__second-menu {
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	width: 50%;
+	min-height: 100vh;
+	background-color: var(--color-black);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	transition: transform 1s;
+	overflow: hidden;
+  z-index: 5;
+}
+
+.nav__second-menu-open {
+	transform: translateX(0);
+}
+
+.nav__second-menu-closed {
+	transform: translateX(100%);
+}
+
+.nav__second-menu li {
+  color: var(--color-golden);
+  font-size: 2rem;
+  font-family: var(--font-base)
+}
+
+.nav__second-menu li:hover {
+  color: var(--color-white)
+}
+.nav__second-menu-list {
+	list-style: none;
+	/* border: 1px solid black; */
+	display: flex;
+	flex-direction: column;
+	gap: 4rem;
+	justify-content: center;
+	align-items: center;
+}
+
+.nav__second-menu-icon {
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+}
+@media screen and (max-width: 500px) {
+	.nav__second-menu {
+		width: 100%;
+	}
+}
+@media screen and (max-width: 550px) {
+	.nav-logo {
+		font-size: 20px;
+	}
+}
+@media screen and (min-width: 630px) {
+	.nav-actions {
+		display: flex;
+	}
+}
+@media screen and (min-width: 1130px) {
+	.nav__list {
+		display: flex;
+	}
+}
+@media screen and (min-width: 1130px) {
+	.nav__hamburger {
+		display: none;
+	}
+}
