@@ -20,8 +20,12 @@ import award05 from '../assets/award05.png';
 import sign from '../assets/sign.png';
 import quote from '../assets/quote.png';
 import gericht from '../assets/gericht.png';
+import perfume100 from '../assets/perfume100.png'
+import perfume50 from '../assets/perfume-50.png'
+import heroimg from '../assets/pexels-felipepelaquim-1895015.jpg'
 
 export default {
+  heroimg,
   bg,
   chef,
   G,
@@ -44,4 +48,5 @@ export default {
   sign,
   quote,
   gericht,
+  perfume100
 };
