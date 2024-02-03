@@ -1,0 +1,37 @@
+/* Single Product CSS */
+
+.app__singleproduct {
+	width: 100%;
+	margin: 1rem 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.app__singleproduct-head {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.app__singleproduct-sub {
+	width: 100%;
+	margin-top: 0.2rem;
+}
+
+.app__singleproduct-name {
+	flex: 1;
+}
+
+.app__singleproduct-dash {
+	width: 20%;
+	height: 1px;
+	background: var(--color-golden);
+	margin: 0 1rem;
+  justify-self: flex-end;
+}
+
+.app__singleproduct-price {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+}

@@ -1,7 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Italiana&display=swap");
 
-
-
 .nav__wrapper {
 	position: relative;
 	overflow: hidden;
@@ -19,7 +17,7 @@
 
 .nav-logo {
 	font-size: 24px;
-  font-family: var(--font-base);
+	font-family: var(--font-base);
 	letter-spacing: 4px;
 }
 
@@ -74,7 +72,7 @@
 	align-items: center;
 	transition: transform 1s;
 	overflow: hidden;
-  z-index: 5;
+	z-index: 10;
 }
 
 .nav__second-menu-open {
@@ -86,13 +84,13 @@
 }
 
 .nav__second-menu li {
-  color: var(--color-golden);
-  font-size: 2rem;
-  font-family: var(--font-base)
+	color: var(--color-golden);
+	font-size: 2rem;
+	font-family: var(--font-base);
 }
 
 .nav__second-menu li:hover {
-  color: var(--color-white)
+	color: var(--color-white);
 }
 .nav__second-menu-list {
 	list-style: none;

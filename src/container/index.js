@@ -6,7 +6,7 @@ import Gallery from './Gallery/Gallery';
 import Hero from './Hero/Hero';
 import Intro from './Intro/Intro';
 import Laurels from './Laurels/Laurels';
-import SpecialMenu from './Menu/SpecialMenu';
+import Products from './Products/Products';
 
 export {
   AboutUs,
@@ -17,5 +17,5 @@ export {
   Hero,
   Intro,
   Laurels,
-  SpecialMenu,
+  Products,
 };

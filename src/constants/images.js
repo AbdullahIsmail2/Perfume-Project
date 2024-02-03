@@ -23,8 +23,9 @@ import gericht from '../assets/gericht.png';
 import perfume100 from '../assets/perfume100.png'
 import perfume50 from '../assets/perfume-50.png'
 import heroimg from '../assets/pexels-felipepelaquim-1895015.jpg'
-
+import perfume1 from '../assets/perfume-img1.png'
 export default {
+  perfume1,
   heroimg,
   bg,
   chef,

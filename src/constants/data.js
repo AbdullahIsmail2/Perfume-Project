@@ -1,58 +1,64 @@
 import images from './images';
 
-const wines = [
+const perfumes= [
   {
-    title: 'Chapel Hill Shiraz',
-    price: '$56',
-    tags: 'AU | Bottle',
+    title: "Mystique d'/Or",
+    price: '£80',
+    vol: '100ml',
   },
   {
-    title: 'Catena Malbee',
-    price: '$59',
-    tags: 'AU | Bottle',
+    title: 'Opulence Royale',
+    price: '£50',
+    vol: '50ml',
   },
   {
-    title: 'La Vieillw Rose',
-    price: '$44',
-    tags: 'FR | 750 ml',
+    title: 'Enchanté Lumière ',
+    price: '£60',
+    vol: '60ml',
   },
   {
-    title: 'Rhino Pale Ale',
-    price: '$31',
-    tags: 'CA | 750 ml',
+    title: 'Celestial Elixir',
+    price: '£70',
+    vol: '70ml',
   },
   {
-    title: 'Irish Guinness',
-    price: '$26',
-    tags: 'IE | 750 ml',
+    title: 'Grandeur Aura',
+    price: '£90',
+    vol: '90ml',
   },
 ];
+// 50ml: £42.50
+// 80ml: £60
+// 100ml: £75
+// 150ml: £100
+// 180ml: £115
+// 200ml: £125
 
-const cocktails = [
+const colognes = [
   {
-    title: 'Aperol Sprtiz',
-    price: '$20',
-    tags: 'Aperol | Villa Marchesi prosecco | soda | 30 ml',
+    title: 'Elysian Cascade',
+    price: '£90',
+    vol: '90ml',
   },
   {
-    title: "Dark 'N' Stormy",
-    price: '$16',
-    tags: 'Dark rum | Ginger beer | Slice of lime',
+    title: "Radiant Splendor ",
+    price: '£40',
+    vol: '40ml',
   },
   {
-    title: 'Daiquiri',
-    price: '$10',
-    tags: 'Rum | Citrus juice | Sugar',
+    title: 'Noble Majesty',
+    price: '£80',
+    vol: '80ml',
   },
   {
-    title: 'Old Fashioned',
-    price: '$31',
-    tags: 'Bourbon | Brown sugar | Angostura Bitters',
+    title: 'Luxe Paradigm',
+    price: '£70',
+    vol: '70ml',
   },
   {
-    title: 'Negroni',
-    price: '$26',
-    tags: 'Gin | Sweet Vermouth | Campari | Orange garnish',
+    title: 'Harmonic Aura',
+    price: '£50',
+    vol: '50ml',
   },
 ];
 
@@ -79,4 +85,4 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+export default { perfumes, colognes, awards };
