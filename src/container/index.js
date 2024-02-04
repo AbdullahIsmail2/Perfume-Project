@@ -1,5 +1,5 @@
 import AboutUs from './AboutUs/AboutUs';
-import Chef from './Chef/Chef';
+import Founder from './Founder/Founder';
 import FindUs from './Findus/FindUs';
 import Footer from './Footer/Footer';
 import Gallery from './Gallery/Gallery';
@@ -10,7 +10,7 @@ import Products from './Products/Products';
 
 export {
   AboutUs,
-  Chef,
+  Founder,
   FindUs,
   Footer,
   Gallery,
