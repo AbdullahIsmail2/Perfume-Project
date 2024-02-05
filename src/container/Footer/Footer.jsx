@@ -21,7 +21,7 @@ const Footer = () => (
 			<div className="app__footer-links_logo">
 				<h1 className="logo">Arôme d'Ayman</h1>
 				<p className="p__opensans">
-					&quot;Let Your Aura Speak with Arome d'Ayman&quot;
+					&quot; Let Your Aura Speak &quot;
 				</p>
 				<img
 					src={images.spoon}

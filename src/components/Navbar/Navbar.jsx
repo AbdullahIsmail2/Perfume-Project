@@ -37,7 +37,7 @@ const Navbar = () => {
 			</ul>
 
 			<div className="nav-actions">
-				<a href="/" className="p__opensans">
+				<a href="#" className="p__opensans">
 					Login
 				</a>
 				<div className="nav-actions-seperator" />

@@ -75,12 +75,8 @@
 	z-index: 20;
 }
 
-.nav__second-menu-open {
-	transform: translateX(0);
-}
-
 .nav__second-menu-closed {
-	transform: translateX(100%);
+	display: none;
 }
 
 .nav__second-menu li {
