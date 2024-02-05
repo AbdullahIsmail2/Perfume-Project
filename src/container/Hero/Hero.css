@@ -1,5 +1,6 @@
 .app__hero {
 	background-color: var(--color-black);
+	z-index: -10;
 }
 
 .app__hero-h1 {
@@ -16,12 +17,8 @@
 	width: 80%;
 }
 
-.hero__subheader {
-	display: flex;
-	align-items: center;
-	margin-bottom: 1rem;
-	gap: 0.5rem;
-}
+
+
 @media screen and (min-width: 2000px) {
 	.app__hero-h1 {
 		font-size: 180px;
@@ -29,7 +26,12 @@
 	}
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (min-width: 1500px) {
+	.app__hero-img img {
+		height: 750px;
+		width: 500px;
+		object-fit: contain;
+	}
 	.app__hero-h1 {
 		font-size: 90px;
 	}
