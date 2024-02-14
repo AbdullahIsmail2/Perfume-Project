@@ -4,7 +4,7 @@ This is a modern perfume website designed and developed for a client's perfume b
 
 ## Key Features
 
-- **Product Showcase**: The website prominently displays the client's perfume products, allowing visitors to explore and learn more about each item.
+- **Product Showcase**: The website prominently displays the client's perfume products in a sleek and modern 'range' section 
 
 - **Modern Image Gallery**: Incorporates a modern image gallery to visually highlight the products, enhancing the overall user experience.
 
