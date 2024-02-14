@@ -1,6 +1,6 @@
 # Perfume Website
 
-This is a modern perfume website designed and developed for a client's perfume business. The website showcases various perfume products, features a sleek UI, and is easy to navigate. It was built using HTML, CSS, JavaScript, and React.
+This is a modern perfume website designed and developed for a client's perfume business. The website showcases various perfume products, features a sleek UI, and is easy to navigate. It was built using HTML, CSS (using BEM), JavaScript, and React.
 
 ## Key Features
 
@@ -13,6 +13,8 @@ This is a modern perfume website designed and developed for a client's perfume b
 - **Contact Us Section**: Provides a contact form or information to facilitate communication between the client and potential customers.
 
 ## Key Skills Demonstrated
+
+- **Applied CSS BEM Principles**: Implemented the Block Element Modifier (BEM) methodology for CSS to ensure a scalable and maintainable styling approach. This involved organizing CSS classes into blocks, elements, and modifiers, promoting code reusability and reducing the risk of style conflicts across different components and sections of the website
 
 - **Client Collaboration**: Collaborated closely with the client to understand their vision and requirements, ensuring they were translated into efficient code.
 
