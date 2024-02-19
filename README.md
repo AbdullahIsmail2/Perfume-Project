@@ -1,6 +1,6 @@
 # Perfume Website
 
-This is a modern perfume website designed and developed for a client's perfume business. The website showcases various perfume products, features a sleek UI, and is easy to navigate. It was built using HTML, CSS (using BEM), JavaScript, and React.
+This is a modern perfume website designed and developed for a client's perfume business. The website showcases various perfume products, features a sleek UI, and is easy to navigate. It was built using HTML, CSS (using BEM principles), JavaScript, and React.
 
 ## Key Features
 
@@ -8,7 +8,7 @@ This is a modern perfume website designed and developed for a client's perfume b
 
 - **Modern Image Gallery**: Incorporates a modern image gallery to visually highlight the products, enhancing the overall user experience.
 
-- **Newsletter Subscription**: Includes a newsletter subscription feature to keep users informed about new products, promotions, and updates.
+- **Newsletter Subscription**: Includes a newsletter subscription feature to keep users informed about new products, promotions, and updates, allowing a greater customer base for my clien.
 
 - **Contact Us Section**: Provides a contact form or information to facilitate communication between the client and potential customers.
 
@@ -32,18 +32,29 @@ To run the website locally:
 
 1. Clone the repository:
 
-git clone (https://github.com/abdullahismail2/perfume-project)
+    ```bash
+    git clone https://github.com/abdullahismail2/perfume-project
+    ```
 
-2. Install dependencies:
+2. Navigate to the cloned folder:
 
-cd {here put the name of the folder the website is cloned in}
-npm install
+    ```bash
+    cd perfume-project
+    ```
 
-3. Start the development server:
+3. Install dependencies:
 
-npm start
+    ```bash
+    npm install
+    ```
 
-4. Open your browser and navigate to `http://localhost:3000` to view the website.
+4. Start the development server:
+
+    ```bash
+    npm start
+    ```
+
+5. Open your browser and navigate to `http://localhost:3000` to view the website.
 
 ## Contributing
 
